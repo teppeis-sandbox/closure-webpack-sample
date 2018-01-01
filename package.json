@@ -1,5 +1,6 @@
 {
   "name": "closure-webpack-sample",
+  "description": "Sample for closure-webpack-plugin",
   "version": "1.0.0",
   "author": "Teppei Sato <teppeis@gmail.com>",
   "engines": {
@@ -10,8 +11,9 @@
     "dist"
   ],
   "scripts": {
-    "build": "run-s build:deps build:webpack",
+    "build": "run-s build:mkdirp build:deps build:webpack",
     "build:deps": "./node_modules/google-closure-library/closure/bin/build/depswriter.py --root_with_prefix 'src ../../../../src' > dist/deps.js",
+    "build:mkdirp": "mkdirp dist",
     "build:webpack": "webpack",
     "start": "npx st . -nc",
     "test": "run-s test:lint",
@@ -23,9 +25,17 @@
     "eslint": "^4.14.0",
     "eslint-config-teppeis": "^6.3.1",
     "google-closure-library": "^20171203.0.0",
+    "mkdirp": "^0.5.1",
     "npm-run-all": "^4.1.2",
     "webpack": "^3.10.0"
   },
-  "keywords": [],
+  "homepage": "https://github.com/teppeis/closure-webpack-sample",
+  "repository": "teppeis/closure-webpack-sample",
+  "bugs": "https://github.com/teppeis/closure-webpack-sample/issues",
+  "keywords": [
+    "closure-compiler",
+    "google-closure-compiler",
+    "webpack"
+  ],
   "license": "MIT"
 }
