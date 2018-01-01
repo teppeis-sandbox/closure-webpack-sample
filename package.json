@@ -21,7 +21,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "closure-webpack-plugin": "0.0.18",
+    "closure-webpack-plugin": "github:teppeis/closure-webpack-plugin#fix",
     "eslint": "^4.14.0",
     "eslint-config-teppeis": "^6.3.1",
     "google-closure-library": "^20171203.0.0",
