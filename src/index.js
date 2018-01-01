@@ -1,5 +1,11 @@
 'use strict';
 
-const foo = require('./foo');
+goog.provide('app.bootstrap');
 
-alert(foo());
+goog.require('app.foo');
+
+const hoge = 'hoge in index';
+
+const cjs = require('./cjs');
+
+console.log(app.foo() + hoge + cjs);
