@@ -23,7 +23,7 @@ Generates `dist/deps.js` with `depswriter.py`.
 Generates `dist/bundle.aggressive_bundle.advanced.js`.
 If you change mode from `AGGRESSIVE_BUNDLE` to `NONE`, it generates `dist/bundle.none.advanced.js`.
 
-Note: In `NONE` mode, optimization is not performed. The `advanced` in filename is meaningless. 
+Note: In `NONE` mode, optimization is not performed. The `advanced` in the filename is meaningless. 
 
 ## License
 
