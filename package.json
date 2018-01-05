@@ -29,9 +29,9 @@
     "npm-run-all": "^4.1.2",
     "webpack": "^3.10.0"
   },
-  "homepage": "https://github.com/teppeis/closure-webpack-sample",
-  "repository": "teppeis/closure-webpack-sample",
-  "bugs": "https://github.com/teppeis/closure-webpack-sample/issues",
+  "homepage": "https://github.com/teppeis-sandbox/closure-webpack-sample",
+  "repository": "teppeis-sandbox/closure-webpack-sample",
+  "bugs": "https://github.com/teppeis-sandbox/closure-webpack-sample/issues",
   "keywords": [
     "closure-compiler",
     "google-closure-compiler",
