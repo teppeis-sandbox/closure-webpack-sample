@@ -15,7 +15,7 @@
     "build:deps": "./node_modules/google-closure-library/closure/bin/build/depswriter.py --root_with_prefix 'src ../../../../src' > dist/deps.js",
     "build:mkdirp": "mkdirp dist",
     "build:webpack": "webpack",
-    "start": "npx st . -nc",
+    "start": "npx st -- -nc -i index.html",
     "test": "run-s test:lint",
     "test:lint": "eslint src *.js"
   },
